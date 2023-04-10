@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Src/Stylescss/Style-Login.css">
+    <title>Cine-BIt/Login</title>
+</head>
+
+<body>
+    <div class="section">
+        <Container class="Principal">
+            <!-- Logo -->
+            <div class="logo">
+                <img src="/Assest/Img/Isotipo.png" alt="Cine-Bit" width="100%" height="100%" />
+            </div>
+
+            <!-- Fomulario-login-->
+            <form id="FormularioLogin" class="Formulario">
+                <!-- Titulo-Bienvenida -->
+                <div class="Bienvenida">
+                    <h4 class="titulo">¡Bienvenid@!</h4>
+                    <p>Inicia sesion a continuación</p>
+                </div>
+                <!-- Inputs -->
+                <div class="inputs">
+                    <label for="inputemail" class="label">Email</label>
+                    <input required type="email" class="input" id="floatingEmail" placeholder="Email">
+                    </input>
+
+                    <label for="password" class="label">Contraseña</label>
+                    <input required type="password" class="input" id="floatingPassword" placeholder="Contraseña">
+                    </input>
+                </div>
+                <!-- botones -->
+                <div class="botones">
+                    <div class="boton">
+                        <a class="btn" href="/pages/registrar.html">Crear cuenta</a>
+                    </div>
+                    <div class="boton">
+                        <button class="btn Iniciar" type="submit">Iniciar sesion</button>
+                    </div>
+                </div>
+            </form>
+        </Container>
+    </div>
+    <script type="text/javascript" src="/Src/Mainjs/Login.js"></script>
+
+</body>
+
+</html>

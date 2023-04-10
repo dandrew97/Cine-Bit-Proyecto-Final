@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Src/Stylescss/home.css">
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Cine-Bit/Home</title>
+</head>
+<body class="contenedor">
+    
+    <!-- Javascript Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"> </script>
+    
+    <header class="header">
+        <div class="logo">
+            <a href="home.html"> <img src="/Assest/Img/Isotipo.png" alt="logo.jpg"></a>
+        </div>
+
+        <nav class="menu"> 
+            <ul>
+                <li>
+                    <a href="#"> Inicio </a>
+                </li>
+                <li>
+                    <a href="#"> Series </a>
+                </li>
+                <li>
+                    <a href="#"> Películas </a>
+                </li>
+                <li>
+                    <a href="#"> Favoritos </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="barraBusqueda">
+            <input type="text" class="input" id="busqueda" name="busqueda" placeholder="Títulos, personas, Géneros" autocomplete="off">
+            <input class="button--submit" value="Buscar" type="submit">
+        </div>
+
+        <div class="notificacion">
+            <a href="#" target="_blank"> <img src="/Assest/Img/Home/notificacion.png" alt="bell.jpg"></a>
+        </div>
+
+        <div class="usuario">
+            <a href="/index.html" target="_blank"> <img src="/Assest/Img/Home/users2.png" alt="user.jpg"></a>
+        </div>
+    </header>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" class="carrusel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active d-item">
+            <img src="/Assest/Img/Home/carrusel1.jpg" class="d-block w-100 d-img" alt="slide1">
+            <div class="carousel-caption top-1 mt-4">
+                <button class="btn btn-danger px-4 py-1 fs-5 mt-5"> Reproducir </button>
+            </div>
+          </div>
+          <div class="carousel-item d-item">
+            <img src="/Assest/Img/Home/carrusel2.jpg" class="d-block w-100 d-img" alt="slide2">
+            <div class="carousel-caption top-1 mt-4">
+                <button class="btn btn-danger px-4 py-1 fs-5 mt-5"> Reproducir </button>
+            </div>
+          </div>
+          <div class="carousel-item d-item">
+            <img src="/Assest/Img/Home/carrusel3.jpg" class="d-block w-100 d-img" alt="slide3">
+            <div class="carousel-caption top-1 mt-4">
+                <button class="btn btn-danger px-4 py-1 fs-5 mt-5"> Reproducir </button>
+            </div>
+          </div>
+          <div class="carousel-item d-item">
+            <img src="/Assest/Img/Home/carrusel4.jpg" class="d-block w-100 d-img" alt="slide4">
+            <div class="carousel-caption top-1 mt-4">
+                <button class="btn btn-danger px-4 py-1 fs-5 mt-5"> Reproducir </button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div> 
+
+    <div class="titulo-peliculas">
+        <p> Películas </p>
+        <p class="linea">________________</p> 
+    </div>
+    <div class="Principal">
+    <div class="contenedorPeliculas">
+
+        <div class="cardPelicula">
+            <div class="item-detalles">
+                <img src="/Assest/Img/Home/movie1.jpg" alt="movie.jpg" class="imgPeliculas">
+            </div>
+            <button class="card-boton"> <img src="/Assest/Img/Home/play.png" alt="play.jpg" class="play-img"> Play</button>
+        </div>
+
+        <div class="cardPelicula">
+            <div class="item-detalles">
+                <img src="/Assest/Img/Home/movie2.jpg" alt="movie.jpg" class="imgPeliculas">
+            </div>
+            <button class="card-boton"> <img src="/Assest/Img/Home/play.png" alt="play.jpg" class="play-img"> Play</button>
+        </div>
+
+        <div class="cardPelicula">
+            <div class="item-detalles">
+                <img src="/Assest/Img/Home/movie9.jpg" alt="movie.jpg" class="imgPeliculas">
+            </div>
+            <button class="card-boton"> <img src="/Assest/Img/Home/play.png" alt="play.jpg" class="play-img"> Play</button>
+        </div>
+
+        <div class="cardPelicula">
+            <div class="item-detalles">
+                <img src="/Assest/Img/Home/movie4.jpg" alt="movie.jpg" class="imgPeliculas">
+            </div>
+            <button class="card-boton"> <img src="/Assest/Img/Home/play.png" alt="play.jpg" class="play-img"> Play</button>
+        </div>
+
+        <div class="cardPelicula">
+            <div class="item-detalles">
+                <img src="/Assest/Img/Home/movie5.jpg" alt="movie.jpg" class="imgPeliculas">
+            </div>
+            <button class="card-boton"> <img src="/Assest/Img/Home/play.png" alt="play.jpg" class="play-img"> Play</button>
+        </div>
+
+        <div class="cardPelicula">
+            <div class="item-detalles">
+                <img src="/Assest/Img/Home/movie6.jpg" alt="movie.jpg" class="imgPeliculas">
+            </div>
+            <button class="card-boton"> <img src="/Assest/Img/Home/play.png" alt="play.jpg" class="play-img"> Play</button>
+        </div>
+
+        <div class="cardPelicula">
+            <div class="item-detalles">
+                <img src="/Assest/Img/Home/movie7.jpg" alt="movie.jpg" class="imgPeliculas">
+            </div>
+            <button class="card-boton"> <img src="/Assest/Img/Home/play.png" alt="play.jpg" class="play-img"> Play</button>
+        </div>
+
+        <div class="cardPelicula">
+            <div class="item-detalles">
+                <img src="/Assest/Img/Home/movie8.jpg" alt="movie.jpg" class="imgPeliculas">
+            </div>
+            <button class="card-boton"> <img src="/Assest/Img/Home/play.png" alt="play.jpg" class="play-img"> Play</button>
+        </div>
+    </div>
+</div>
+
+    <div class="titulo-series">
+        <p> Series </p>
+        <p class="linea">_______________</p> 
+    </div>
+    
+    <div class="contenedorSeries">
+
+        <div class="cardSeries">
+            <div class="item-detalles2">
+                <img src="/Assest/Img/Home/serie1.jpg" alt="movie.jpg" class="imgSeries">
+            </div>
+            <button class="card-boton"> <img src="/Assest/Img/Home/play.png" alt="play.jpg" class="play-img"> Play</button>
+        </div>
+
+        <div class="cardSeries">
+            <div class="item-detalles2">
+                <img src="/Assest/Img/Home/serie2.jpg" alt="movie.jpg" class="imgSeries">
+            </div>
+            <button class="card-boton"> <img src="/Assest/Img/Home/play.png" alt="play.jpg" class="play-img"> Play</button>
+        </div>
+
+        <div class="cardSeries">
+            <div class="item-detalles2">
+                <img src="/Assest/Img/Home/serie3.png" alt="movie.jpg" class="imgSeries">
+            </div>
+            <button class="card-boton"> <img src="/Assest/Img/Home/play.png" alt="play.jpg" class="play-img"> Play</button>
+        </div>
+
+        <div class="cardSeries">
+            <div class="item-detalles2">
+                <img src="/Assest/Img/Home/serie4.jpg" alt="movie.jpg" class="imgSeries">
+            </div>
+            <button class="card-boton"> <img src="/Assest/Img/Home/play.png" alt="play.jpg" class="play-img"> Play</button>
+        </div>
+
+        <div class="cardSeries">
+            <div class="item-detalles2">
+                <img src="/Assest/Img/Home/serie5.jpg" alt="movie.jpg" class="imgSeries">
+            </div>
+            <button class="card-boton"> <img src="/Assest/Img/Home/play.png" alt="play.jpg" class="play-img"> Play</button>
+        </div>
+
+        <div class="cardSeries">
+            <div class="item-detalles2">
+                <img src="/Assest/Img/Home/serie6.jpg" alt="movie.jpg" class="imgSeries">
+            </div>
+            <button class="card-boton"> <img src="/Assest/Img/Home/play.png" alt="play.jpg" class="play-img"> Play</button>
+        </div>
+
+        <div class="cardSeries">
+            <div class="item-detalles2">
+                <img src="/Assest/Img/Home/serie7.jpg" alt="movie.jpg" class="imgSeries">
+            </div>
+            <button class="card-boton"> <img src="/Assest/Img/Home/play.png" alt="play.jpg" class="play-img"> Play</button>
+        </div>
+
+        <div class="cardSeries">
+            <div class="item-detalles2">
+                <img src="/Assest/Img/Home/serie8.jpg" alt="movie.jpg" class="imgSeries">
+            </div>
+            <button class="card-boton"> <img src="/Assest/Img/Home/play.png" alt="play.jpg" class="play-img"> Play</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="contenedorFooter">
+            <div class="itemLogos">
+                <img src="/Assest/Img/Home/facebook.png" alt="facebook.png" class="imglogo">
+            </div>
+
+            <div class="itemLogos">
+                <img src="/Assest/Img/Home/instagram.png" alt="twitter.png" class="imglogo">
+            </div>
+
+            <div class="itemLogos">
+                <img src="/Assest/Img/Home/twitter.png" alt="youtube.png" class="imglogo">
+            </div>
+
+            <div class="itemLogos">
+                <img src="/Assest/Img/Home/youtube.png" alt="instagram.png" class="imglogo">
+            </div>
+        </div>
+
+        <div class="texfooter">
+            <p> &#169 2023 Cine Bit, Col</p>
+        </div>
+    </footer>
+</body>
+</html>

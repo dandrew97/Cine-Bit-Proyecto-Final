@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="../assets/js/color-modes.js"></script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.111.3">
+    <title>Cine-Bit/registrar</title>
+    <link rel="stylesheet" href="/Assest/Librerias/Bootstrap/sign-in/sign-in.css">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sign-in/">
+    <link href="/Src/Stylescss/Registrar.css" rel="stylesheet">
+    <style>
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <link href="sign-in.css" rel="stylesheet">
+</head>
+
+<body>
+        <section class="Principal">
+            <main class="form-signin w-100 m-auto">
+                <form id="Formulario" class="Formulario">
+                    <img class="Logo mb-4" src="/Assest/Img/Isotipo.png" alt="Cine-Bit" width="110px" height="110px">
+                    <h1 class="Titulo h3 mb-3 fw-normal">Registrate</h1>
+                    <p class="Form-p">Porfavor completa los siguientes campos</p>
+
+                    <div class="inputs">
+                        <label class="label" for="floatingName">Nombre</label>
+                        <input required type="text" class="form-control" id="floatingName" placeholder="nombre">
+                    </div>
+                    <div class="inputs">
+                        <label class="label" for="floatingLastName">Apellidos</label>
+                        <input required type="text" class="form-control" id="floatingLastName" placeholder="Apellidos">
+                    </div>
+                    <div class="inputs">
+                        <label class="label" for="floatingEmail">Email</label>
+                        <input required type="email" class="form-control" id="floatingEmail"
+                            placeholder="nombre@correo.com">
+                    </div>
+                    <div class="inputs">
+                        <label class="label" for="floatingPassword">Contraseña</label>
+                        <input required type="password" class="form-control" id="floatingPassword"
+                            placeholder="Contraseña">
+                    </div>
+                    <div class="checkbox mb-3">
+                        <label class="checkbox-input">
+                            <input type="checkbox" value="remember-me"> Acepto los terminos y condiciones
+                        </label>
+                    </div>
+                    <!-- botones -->
+                    <div class="botones">
+                        <div class="boton">
+                            <button class="btn Iniciar" type="submit">Registrarme</button>
+                        </div>
+                        <div class="boton">
+                            <a class="btn" href="/index.html">Tengo cuenta</a>
+                        </div>
+                    </div>
+                        <div class="div-copy">
+                            <p class="copy mt-5 mb-3 text-body-secondary">&copy; Cine-Bit</p>
+                        </div>
+                </form>
+            </main>
+        </section>
+    <script type="text/javascript" src="/Src/Mainjs/Registrar.js"></script>
+</body>
+
+</html>
